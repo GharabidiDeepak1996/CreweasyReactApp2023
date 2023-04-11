@@ -88,6 +88,7 @@ const SplashScreen = ({navigation}) => {
   }
 
   useEffect(() => {
+    navigation.navigate('LoginScreen')
     //animation()
     fetchToken()
 }, [])
